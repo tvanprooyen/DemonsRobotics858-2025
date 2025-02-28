@@ -1,0 +1,62 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ToCoral"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "DeployCoralL4"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AlgaeL2"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "BackOutCoral"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeAlgea"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BackOut"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LowerAlgaeElevator"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}

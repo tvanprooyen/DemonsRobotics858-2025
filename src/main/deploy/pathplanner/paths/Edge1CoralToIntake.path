@@ -1,0 +1,59 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.03483606557377,
+        "y": 2.9880635245901637
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.117564321714417,
+        "y": 2.7186945389217194
+      },
+      "isLocked": false,
+      "linkedName": "Edge1Coral"
+    },
+    {
+      "anchor": {
+        "x": 0.6832991803278687,
+        "y": 0.7703381147540983
+      },
+      "prevControl": {
+        "x": 2.661270491803278,
+        "y": 1.5495389344262285
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Intake"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.3803891644410538,
+      "rotationDegrees": 119.99999999999999
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 1.5,
+    "maxAngularVelocity": 400.0,
+    "maxAngularAcceleration": 600.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -130.42607874009906
+  },
+  "reversed": false,
+  "folder": "RightPaths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 119.99999999999999
+  },
+  "useDefaultConstraints": true
+}
